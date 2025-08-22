@@ -1,0 +1,5 @@
+# Problem Set 0.1 - Indoor Voice
+
+user_greeting = input("Say something LOUDLY: ").lower()
+
+print("That was too loud, this is a bit quieter:",user_greeting)
