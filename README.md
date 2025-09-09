@@ -1,5 +1,5 @@
 # GAME OF THRONES SQUIRE
-## Note: Run "project.py" to begin the Game of Thrones Squire. 
+## Run "project.py" to begin the program. 
 ###
 
 The goal of this project was to test my introduction to Python skills while creating something relevant to my interests. 
