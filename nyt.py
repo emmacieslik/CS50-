@@ -22,7 +22,7 @@ def list_choice():
 
 ############################################################################################################
 def hardcover_list():
-    API_KEY = "QtJafAsmDkNgAz6v1eGOgdPzpTWFGmex"
+    API_KEY = "HIDDEN"
 
     url = "https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json"
     params = {"api-key": API_KEY}
@@ -47,7 +47,7 @@ def hardcover_list():
 def paperback_list():
     clear_screen()
     print("NYT Best Sellers List for Paperback Fiction:\n")
-    API_KEY = "QtJafAsmDkNgAz6v1eGOgdPzpTWFGmex"
+    API_KEY = "HIDDEN"
 
     url = "https://api.nytimes.com/svc/books/v3/lists/current/trade-fiction-paperback.json"
     params = {"api-key": API_KEY}
