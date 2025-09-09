@@ -1,12 +1,10 @@
 # GAME OF THRONES SQUIRE
-## Description:
+## Note: Run "project.py" to begin the Game of Thrones Squire. 
 ###
 
-The goal of this project was to test my introduction to Python skills and make Game of Thrones knowledge accessible.
+The goal of this project was to test my introduction to Python skills while creating something relevant to my interests. 
 
 This Game of Thrones Squire allows users to learn more about each published book, a few main houses, notable locations, and even discover similar books they may enjoy.
-
-To learn about a book in the Song of Ice and Fire series, the user must select the book (1-5), then information will generate from a local txt file. For the main houses and notable locations, the users selection will lead them to an external link that either shows a photo of a sigil and house words, or a webpage that shows images and maps. If the user is interested in reading other fiction books, they may choose between hardcover and paperback recommendations which are generated using an API from the NYT Best Seller's List.
 
 I hope this project displays my developing skills and interest in Python to create meaningful tools. I look forward to updating this program as I learn more.
 
@@ -51,4 +49,4 @@ project.py
 ___
 test_project.py
 
-This python file tests my code using pytest and monkeypatch. This tests functions inside of the main project.py file. The first function makes sure if the user hits Enter, the program will quit. The second function makes sure the users input is returned properly. The third function makes sure the program goes to the previous page if the user types 'back'.
+This python file tests my code using pytest and monkeypatch. This tests functions inside of the main project.py file. The first function makes sure if the user hits Enter, the program will quit. The second function makes sure the users input is returned properly in an invalid chocie is selected. The third function makes sure the program goes to the previous page if the user types 'back'.
